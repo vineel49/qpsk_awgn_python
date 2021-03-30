@@ -1,8 +1,8 @@
 # ML detection of QPSK signals transmitted over AWGN channel
 import time
 import numpy as np
-frame_size = 1024; # frame size
-SNR_dB = 9.5; # SNR per bit (dB)
+frame_size = 1024 # frame size
+SNR_dB = 9.5 # SNR per bit (dB)
 SNR = 10**(0.1*SNR_dB) # SNR per bit in linear scale
 noise_var_1D = 0.5/SNR # AWGN variance per dimension
 sim_runs = 1e4 # simulation runs
